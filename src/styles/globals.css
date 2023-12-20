@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #363636;
+}
+
+.greatBox{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.formBox{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.formBox div{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox div input{
+    width: 75%;
+    height: 30%;
+    font-size: 20px;
+    border: 3px solid gainsboro;
+    padding: 0.5rem;
+    transition: all 0.8s ease;
+    outline: none;
+    background-color: #FFF;
+    color: #00A335;
+}
+
+.formBox div input::placeholder{
+    color: #00A335;
+}
+
+.formBox div input:hover{
+    border-color: #00A335;
+}
+
+.formBox div button{
+    width: 60%;
+    height: 30%;
+    background-color: #00A335;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    transition: all .8s ease;
+}
+
+.formBox div button:hover{
+    background-color: #32CD32;
+    cursor: pointer;
+}
+
+.imageBox{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00A335;
+}
+
+.imageBox div{
+    background-color: #00A335;
+}
+
+.imageBox div h3{
+    background-color: #00A335;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+
+.imageBox img{
+    height: 80%;
+    width: auto;
+    background-color: #00A335;
+}
+
+.divLogo{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
